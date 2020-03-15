@@ -1,12 +1,18 @@
 class VigenereCipheringMachine {
-    encrypt() {
-        throw 'Not implemented';
-        // remove line with error and write your code here
+     /* constructor( bool ){
+        if(boll==true || bool===undefined) return this.encrypt();
+        else return this.decrypt(); 
+    }  */
+    encrypt(str,key) {
+      /*  if(str===undefined || key===undefined) throw Error(); */
+        throw new Error();
+
+
     }
 
-    decrypt() {
-        throw 'Not implemented';
-        // remove line with error and write your code here
+    decrypt(str,key) {
+        /* if(str===undefined || key===undefined) throw Error(); */
+        throw new Error();
     }
 }
 
